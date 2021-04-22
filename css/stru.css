@@ -3,20 +3,26 @@
 body{
     background-color: black;
 }
-
+.container
+{
+    width: 85%;
+    max-width: 850px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 header {
     width: 100%;
-    overflow: hidden;
     background: #101420;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
-
-header .logo {
+.logo {
     float: left;
 }
 
-header nav { 
-    float: center;
+.nav { 
+    float: right;
     line-height: 75px;
 }
 
