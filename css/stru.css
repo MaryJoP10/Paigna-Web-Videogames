@@ -1,4 +1,4 @@
-*{margin: 0;}
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
 
 body{
     background-color: black;
@@ -13,6 +13,7 @@ body{
     align-items: center;
 }
 header {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
     background: #101420;
     margin-bottom: 0;
@@ -25,11 +26,19 @@ header {
     float: right;
     line-height: 75px;
 }
-
+    .nav ul 
+    {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .nav ul li
+    {
+        display: inline-block;
+    }
 header nav a {
     display: inline-block;
     color: #c0c0c0;
-    padding: 0px 45px;
     font-size: 20px;
     text-decoration: none;
     margin: 0px 10px;
